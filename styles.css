@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+h1{
+	text-align:center;
+}
+
+#box{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#ADD8E6;
+	color:#800080;
+	border:2px solid black;
+	width:200px;
+	height:200px;
+}
